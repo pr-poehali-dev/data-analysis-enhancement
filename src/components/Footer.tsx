@@ -84,6 +84,15 @@ export function Footer() {
               >
                 <Icon name="Send" size={20} className="text-white/60" />
               </a>
+              <a
+                href="#"
+                className="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center hover:bg-primary/20 transition-colors"
+              >
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white/60">
+                  <path d="M12.785 16.241c-3.87 0-6.07-2.66-6.155-7.084H8.63c.06 3.25 1.497 4.627 2.632 4.914V9.157h1.917v2.94c1.12-.12 2.298-1.403 2.694-2.94h1.917c-.305 1.93-1.58 3.213-2.486 3.753.905.44 2.363 1.553 2.913 3.331h-2.109c-.433-1.353-1.51-2.4-2.929-2.536v2.536h-.394z" fill="rgba(255,255,255,0.6)"/>
+                  <rect x="0.5" y="0.5" width="23" height="23" rx="3.5" stroke="rgba(255,255,255,0.15)"/>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
