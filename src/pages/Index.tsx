@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero"
 import { ServicesSection } from "@/components/ServicesSection"
 import { WhyUsSection } from "@/components/WhyUsSection"
 import { CasesSection } from "@/components/CasesSection"
+import { NichesSection } from "@/components/NichesSection"
 import { ClientsSection } from "@/components/ClientsSection"
 import { LeadFormSection } from "@/components/LeadFormSection"
 import { Navbar } from "@/components/Navbar"
@@ -15,6 +16,7 @@ export default function Index() {
         <Hero />
         <ServicesSection />
         <WhyUsSection />
+        <NichesSection />
         <CasesSection />
         <ClientsSection />
         <LeadFormSection />
