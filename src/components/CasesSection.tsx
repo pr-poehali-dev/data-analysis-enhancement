@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
 import Icon from '@/components/ui/icon'
 
 const cases = [
@@ -75,7 +76,7 @@ export function CasesSection() {
                   {caseItem.description}
                 </p>
 
-                <div className="space-y-4 border-t border-white/10 pt-6">
+                <div className="space-y-4 border-t border-white/10 pt-6 mb-6">
                   {caseItem.results.map((result, idx) => (
                     <div key={idx} className="flex justify-between items-center">
                       <span className="text-white/60">{result.label}</span>
@@ -83,6 +84,17 @@ export function CasesSection() {
                     </div>
                   ))}
                 </div>
+
+                <Button
+                  asChild
+                  className="w-full bg-primary/10 hover:bg-primary text-primary hover:text-black border border-primary/30 hover:border-primary transition-all duration-300"
+                  variant="ghost"
+                >
+                  <a href="#contact">
+                    Обсудить похожий проект
+                    <Icon name="ArrowRight" size={16} className="ml-2" />
+                  </a>
+                </Button>
               </div>
             </Card>
           ))}
